@@ -1,6 +1,6 @@
 <?php
 if (!isset($attributes['imgURLGWebp'])) {
-  $attributes['imgURLGWebp'] = '/wp-content/plugins/nhazinha_template_plugin/images/nhazinha/baner-pagina-ini-1-.webp';
+  $attributes['imgURLGWebp'] = '/wp-content/plugins/wp-plugin_nhazinha_template/images/nhazinha/baner-pagina-ini-1-.webp';
 }
 
 ?>
