@@ -27,7 +27,7 @@ function replace_url_directorys($file_path, $substituicoes, $novo_nome){
 
 function plugin_path_finder(){
 
-    $file_path= plugin_dir_path( __FILE__ ) . 'templates/base.html';
+    $file_path= plugin_dir_path( __FILE__ ) . 'templates/novo.html';
     $substituicoes = [
         '/wp-content/themes/portfolios_blocktheme/images/nhazinha' => '/wp-content/plugins/wp-plugin_nhazinha_page/images/nhazinha',
        ' http://localhost/dev00/wp-content/themes/portfolios_blocktheme' => plugins_url('/', __FILE__),//test gpt suggest
