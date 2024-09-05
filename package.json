@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "wp-scripts start --experimental-modules & node browser-sync.config.js",
+    "dev": "wp-scripts start",
+    "devFast": "wp-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@wordpress/scripts": "^28.6.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.2"
+  }
+}
