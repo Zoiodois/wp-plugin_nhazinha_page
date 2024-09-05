@@ -23,7 +23,7 @@
 
                     <div class="header-img__ajust">
                         <img src="<?php 
-                        $plugin_dir = plugins_url('nhazinha_template_plugin');
+                        $plugin_dir = plugins_url('wp-plugin_nhazinha_page');
                         echo $plugin_dir . '/images/nhazinha/logo_nhazinha_extend.webp';?>" 
                         class="img-fluid" style="max-width:100% height:auto">
                     </div>

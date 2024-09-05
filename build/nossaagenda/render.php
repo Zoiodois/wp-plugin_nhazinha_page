@@ -6,7 +6,7 @@
         <div class="card text-white col-lg-4 col-sm-12 no-outline mb-2" style="height:350px">
 
             <img class="card-img img-fluid" style="height:100%; object-fit:cover;" src="<?php 
-                 $plugin_dir = plugins_url('nhazinha_template_plugin');
+                 $plugin_dir = plugins_url('wp-plugin_nhazinha_page');
                  echo $plugin_dir . '\images\nhazinha\home_esbarro.webp';
                 ?>" alt="Card image">
             <div class="card-img-overlay  container d-flex flex-column justify-content-between "
