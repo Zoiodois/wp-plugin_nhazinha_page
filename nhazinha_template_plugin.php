@@ -10,7 +10,7 @@ Author URI: https:felipebsr.online
 
 // Evita o acesso direto ao arquivo
 if ( ! defined( 'ABSPATH' ) ) {
-    exit;
+  exit;
 };
 
 
@@ -29,11 +29,14 @@ function meu_plugin_register_template_parts() {
     // Registra o template part apenas se ele existir
     if ( file_exists( $template_part_path ) ) {
         register_block_pattern(
-            'meu-plugin/my-custom-template',
+            'portfolios/nhazinha',
             array(
-                'title' => __( 'Meu Template Personalizado', 'meu-plugin-template' ),
+                'title' => __( 'Nhazinha', 'wp-plugin_nhazinha_page' ),
                 'content' => file_get_contents( $template_part_path ),
                 'categories' => array( 'text' ),
+                'blocktypes' => array('portfolios/bannerurl','portfolios/banner','portfolios/footer','portfolios/header','portfolios/nhazinhaheader','portfolios/agenda','portfolios/nhazinhasotre  '),
+                'template types' => array('page'),
+                'sourcer' => 'plugin'
             )
         );
     }
